@@ -1,0 +1,23 @@
+.MainPlayer{
+    max-width:100vw;
+    max-height:100vh;
+    overflow:hidden;
+    display: grid;
+    grid-template-rows: 85vh 15vh;   
+    color:#fff;
+}
+.MainPlayer > .SpotifyBody{
+    display: grid;
+    grid-template-columns: 15vw 85vw;
+    height:100%;
+    width:100%;
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.958));
+    background-color: rgb(120, 136, 176);
+}
+
+.SpotifyFooter{
+    background-color: #171616;
+    height: 100%;
+}
+
+

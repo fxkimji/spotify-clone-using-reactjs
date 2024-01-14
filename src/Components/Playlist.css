@@ -1,0 +1,86 @@
+.Main > .body{
+    height:100%;                         
+    width: 100%;
+    overflow: auto;
+}
+
+.Sidebar{
+    background-color: #000000;
+    color: #ffffff7a;
+}
+.Sidebar > img{
+    padding-top: 10px;
+    padding-left: 10px;
+    width: auto;
+    height: 20px;
+}
+.Sidebar>#One> ul{
+    list-style-type: none;
+    padding: 1rem;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+#side{
+    display: flex;
+    gap: 1rem;
+    cursor: pointer;
+
+    &:hover{
+        color: #fff;
+    }
+}
+
+.Playlist> ul{
+    list-style-type: none;
+    padding: 1rem;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    height: 55vh;
+    max-height: 100%;
+    padding-top: 5px;
+}
+
+.Playlist >ul> li{
+    display: flex;
+    gap: 1rem;
+    cursor: pointer;
+    color: #ffffff8b;
+    &:hover{
+        color: #fff;
+    }
+    &:active{
+        color: #fff;
+    }
+}
+
+a{
+    color: #ffffff8b;
+    text-decoration: none;
+    &:hover{
+        color: #fff;
+    }
+}
+
+#YourPlaylist{
+    padding-left: 10px;
+    font-weight: 500;
+}
+#One,#Two{
+    background:#2a2a2aa2;
+    border-radius: 20px;
+    margin: 5px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+#Two{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height:370px;
+}
+#O{
+   margin-top: -2px;
+}
